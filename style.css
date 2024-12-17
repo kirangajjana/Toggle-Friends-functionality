@@ -77,3 +77,8 @@ body{
 #button1:hover{
     background-color: red;
 }
+#marquee{
+    position:absolute;
+    bottom: 0;
+    font-weight: bolder;
+}
