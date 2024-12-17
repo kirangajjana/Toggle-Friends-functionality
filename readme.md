@@ -28,4 +28,4 @@ This is a simple web-based application where users can toggle the status of a fr
     - Click the "Remove Friend" button to change the status to "Strangers".
 
 ## Demo
- - you can find the demo [here]()
+ - you can find the demo [here](https://kirangajjana.github.io/Toggle-Friends-functionality/)
