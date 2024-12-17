@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    border:0;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+#card{
+    height:300px;
+    width:300px;
+    background-color: white;
+    border-color: black;
+    padding:30px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    position: absolute;
+}
+#card img{
+    height:50%;
+    width:100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+#name{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+#button{
+    height:20px;
+    width:100px;
+    border-radius: 30px;
+    background-color: cornflowerblue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+#buttondiv{
+    height:20%;
+    width:100%;
+    background-color: aquamarine;
+    border-color: black;
+    align-items: center;
+    margin:10px;
+    position: relative;
+    top:10%;
+    border-radius: 10px;
+}
+#button1{
+    height:20px;
+    width:100px;
+    border-radius: 30px;
+    margin:20px;
+    background-color: cornflowerblue;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: medium;
+
+
+}
+#button:hover{
+    background-color: red;
+}
+#button1:hover{
+    background-color: red;
+}
